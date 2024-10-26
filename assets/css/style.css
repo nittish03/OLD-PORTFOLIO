@@ -1344,7 +1344,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 25px 0; }
 
   .contacts-list { gap: 20px; }
 
