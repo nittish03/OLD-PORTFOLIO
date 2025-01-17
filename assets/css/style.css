@@ -1969,7 +1969,6 @@ color: var(--vegas-gold) ;
 .filter-list .filter-item button {
   padding: 10px 20px;
   border: none;
-  background-color: #007BFF;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -1978,7 +1977,7 @@ color: var(--vegas-gold) ;
 
 .filter-list .filter-item button.active,
 .filter-list .filter-item button:hover {
-  background-color: #0056b3;
+  background-color: #96b5d6;
 }
 
 .grid-container {
@@ -1999,34 +1998,4 @@ color: var(--vegas-gold) ;
   }
 }
 
-.certificate-card {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s;
-}
-
-.certificate-card:hover {
-  transform: scale(1.05);
-}
-
-.certificate-card img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin-bottom: 15px;
-  border-radius: 50%;
-}
-
-.certificate-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.certificate-card p {
-  font-size: 0.9rem;
-  color: #555;
-}
 
