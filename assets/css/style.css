@@ -1888,3 +1888,57 @@ textarea.form-input::-webkit-resizer { display: none; }
 .df a{
 color: var(--vegas-gold) ;
 }
+.skills-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Set max width of the box */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Fixed 5 items per row */
+  gap: 16px; /* Space between items */
+  justify-items: center;
+  width: 100%;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-item img {
+  height: 60px;
+  margin-bottom: 8px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.skill-item span {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.skill-item img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) { /* Medium and smaller screen sizes */
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr); /* Show 3 items per row */
+  }
+}
+
+
